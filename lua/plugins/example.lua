@@ -10,13 +10,13 @@ if true then return {} end
 -- * override the configuration of LazyVim plugins
 return {
   -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
+  { "shaunsingh/nord.nvim" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "nord",
     },
   },
 
@@ -208,6 +208,8 @@ return {
         "shellcheck",
         "shfmt",
         "flake8",
+        "clangd",
+        "pyright",
       },
     },
   },
